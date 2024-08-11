@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Grade Tracker</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class ="container">
+    <h1>Student Grade Tracker</h1>
+    <form id="StudentForm">
+      <label for ="name">Student Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Student Name" required>
+      <label for ="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" placeholder="Enter Subject" required>
+      <label for ="grade">Grade:</label>
+      <input type="number" id="grade" name="grade" placeholder="Enter Grade" required>
+      <button type="submit">Add Grade</button>
+    </form>
+    <h2>Student Grades</h2>
+    <ul id = "StudentList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
